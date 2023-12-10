@@ -1,5 +1,7 @@
 package com.vocaops.voca;
 
+import com.vocaops.vocabook.Vocabook;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -14,14 +16,12 @@ public class Voca {
 	
 	// TODO:korQuestion ,engQuestion 중 랜덤으로 
 	
-	//ex) Q: 사과 - A: apple
-	private String korQuestion;
-	private String korAnswer;
+	//ex) Q: 사과 - A: 구글번역기 API를 사용한 사용자의 입력값 번역이 맞아 떨어질경우
+	//TODO: KOR문제일 경우 영어 포함안되게 해야함.
+	private String korWord;
 	
-	//ex) Q: apple - A: 사과
-	private String engQuestion;
-	private String engAnswer;
-	
-	@ManyToOne
-	private Vocabook vocabook;
+	//ex) Q: apple - A: 구글번역기 API를 사용한 사용자의 입력값 번역이 맞아 떨어질경우
+	//TODO: ENG문제일 경우 한국어 포함안되게 해야함.
+	private String engWord;
+
 }
