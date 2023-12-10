@@ -28,5 +28,5 @@ public class SiteUser {
     @Enumerated(EnumType.STRING)
     private UserRole role; //권한
     
-    private long rating;
+    private Long rating;
 }

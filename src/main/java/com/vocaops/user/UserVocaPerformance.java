@@ -23,7 +23,7 @@ public class UserVocaPerformance {
     @ManyToOne
     private Voca voca;
 
-    private int wrongCount;
+    private Integer wrongCount;
     private LocalDateTime lastAttempted;
     
 }

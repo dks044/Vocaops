@@ -20,6 +20,6 @@ public class UserVocaBook {
     @ManyToOne
     private VocaBook vocabook;
 
-    private boolean isCleared;
+    private Boolean isCleared;
     
 }
