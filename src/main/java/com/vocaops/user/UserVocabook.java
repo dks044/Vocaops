@@ -6,7 +6,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToOne;
 
 @Entity
-public class UserWordbook {
+public class UserVocabook {
     @ManyToOne
     private SiteUser user;
 
@@ -14,5 +14,5 @@ public class UserWordbook {
     private Vocabook vocabook;
 
     private boolean isCleared;
-    // ... 기타 필드와 메소드 ...
+    
 }

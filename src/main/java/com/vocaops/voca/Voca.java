@@ -24,6 +24,6 @@ public class Voca {
 	//TODO: ENG문제일 경우 한국어 포함안되게 해야함.
 	private String engWord;
 
-	//ex: 채용, 법률
+	//ex: 채용, 법률 (챕터느낌)
 	private String category;
 }
