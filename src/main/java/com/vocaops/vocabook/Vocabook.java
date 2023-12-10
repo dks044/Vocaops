@@ -19,7 +19,7 @@ public class VocaBook {
 	//ex) 토익보카,고등보카
 	private String name;
 	
-	@OneToMany(mappedBy = "vocabook")
+	@OneToMany(mappedBy = "vocaBook")
 	private List<Voca> vocas;
 	
 }
