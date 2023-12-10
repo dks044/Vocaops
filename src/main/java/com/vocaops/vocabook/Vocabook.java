@@ -11,7 +11,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 
 @Entity
-public class Vocabook {
+public class VocaBook {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;

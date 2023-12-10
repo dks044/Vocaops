@@ -1,6 +1,6 @@
 package com.vocaops.voca;
 
-import com.vocaops.vocabook.Vocabook;
+import com.vocaops.vocabook.VocaBook;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

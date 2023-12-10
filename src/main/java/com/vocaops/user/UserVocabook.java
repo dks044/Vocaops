@@ -1,17 +1,17 @@
 package com.vocaops.user;
 
-import com.vocaops.vocabook.Vocabook;
+import com.vocaops.vocabook.VocaBook;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToOne;
 
 @Entity
-public class UserVocabook {
+public class UserVocaBook {
     @ManyToOne
     private SiteUser user;
 
     @ManyToOne
-    private Vocabook vocabook;
+    private VocaBook vocabook;
 
     private boolean isCleared;
     
