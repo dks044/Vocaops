@@ -12,7 +12,7 @@ import jakarta.persistence.ManyToOne;
 public class Voca {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id;
+	private Long id;
 	
 	// TODO:korQuestion ,engQuestion 중 랜덤으로 
 	

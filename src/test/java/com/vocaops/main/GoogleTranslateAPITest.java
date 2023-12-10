@@ -24,7 +24,7 @@ public class GoogleTranslateAPITest {
 
         String text = "안녕하세요";
         Translation translation = translate.translate(text, Translate.TranslateOption.targetLanguage("en"));
-
+        
         System.out.printf("Translated Text: %s%n", translation.getTranslatedText());
 
          assertEquals("hello", translation.getTranslatedText());

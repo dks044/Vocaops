@@ -14,7 +14,7 @@ import jakarta.persistence.OneToMany;
 public class VocaBook {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id;
+	private Long id;
 	
 	//ex) 토익보카,고등보카
 	private String name;
