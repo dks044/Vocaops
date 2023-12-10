@@ -1,4 +1,4 @@
-package com.wordwave.main;
+package com.vocaops.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
